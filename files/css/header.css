@@ -74,6 +74,17 @@ header a {
     color: white;
 }
 
+.sticky {
+    position: fixed;
+    top: 43px;
+    width: 100%;
+
+}
+
+.sticky + .content {
+    padding-top: 102px;
+  }
+
 
 /* The dropdown container */
 
