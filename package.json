@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Information Foraging project for CSE 256 in the form of WUSTL's Nursery School website.",
   "main": "./scripts/js/app.js",
-  "url": "put your repository's home page url here",
+  "url": "cse256-sp2021/information-foraging-miagoldberg",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sandbox": "node ./deploy/sandbox.js",
@@ -13,18 +13,18 @@
     "serve": "browser-sync start --server --files \"files/css/*.css\" \"files/*.html\" \"scripts/js/*.js\"",
     "dev": "concurrently --kill-others \"npm run watch\" \"npm run serve\""
   },
-  "author": "Riley McCuen",
+  "author": "Mia Goldberg",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "^13.1.1",
-    "browser-sync": "^2.26.13",
-    "browserify": "^16.5.0",
+    "@types/node": "^13.13.45",
+    "browser-sync": "^2.26.14",
+    "browserify": "^16.5.2",
     "concurrently": "^5.3.0",
     "prettier": "^2.2.1",
     "stringify": "^5.2.0",
-    "tsify": "^4.0.1",
-    "typescript": "^3.7.4",
+    "tsify": "^4.0.2",
+    "typescript": "^3.9.9",
     "watchify": "^3.11.1"
   }
 }
