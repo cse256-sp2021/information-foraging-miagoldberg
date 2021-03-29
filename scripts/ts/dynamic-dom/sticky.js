@@ -9,6 +9,7 @@ function checkSticky() {
     var sticky = header.offsetTop;
     if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
+        /*header.top = document.getElementById("mturk-top-banner-drop-down-content").offsetHeight + 43;*/
     } else {
         header.classList.remove("sticky");
     }
